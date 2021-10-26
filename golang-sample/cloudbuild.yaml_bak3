@@ -29,7 +29,7 @@ steps:
   # Docker Build
   - name: 'gcr.io/cloud-builders/docker'
     args: ['build', '-t', 
-           'us-central1-docker.pkg.dev/$PROJECT_ID/myang89-registry/myimage', './golang-sample']
+           'us-central1-docker.pkg.dev/$PROJECT_ID/myang89-registry/myimage', '.']
   # [END cloudbuild_go_image_yaml]
   
   # [START cloudbuild_go_push_yaml]
